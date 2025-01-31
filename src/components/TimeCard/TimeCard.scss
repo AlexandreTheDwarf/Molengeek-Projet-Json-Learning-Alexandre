@@ -1,0 +1,61 @@
+.TimeCard{
+
+    width: 300px;
+    height: 290px;
+
+    border-radius : 10% 10% 10% 10% / 10% 10% 10% 10% ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+
+    img{
+        position: absolute;
+        right: 7.5%;
+        width: 25%;
+    }
+
+    .TimeCardInfo{
+        background-color: #1D204B;
+        width: 100%;
+        height: 80%;
+
+        bottom : 0;
+
+        border-radius : 10% 10% 10% 10% / 10% 10% 10% 10% ;
+
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap : 5%;
+
+        .TimeCardInfoHeader{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span{
+                font-size: 24px;
+                font-weight: bold;
+            }
+            svg{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .TimeCardInfoFooter{
+            width: 80%;
+
+            span{
+                color : #BFC2F5;
+            }
+        }
+    }
+}
