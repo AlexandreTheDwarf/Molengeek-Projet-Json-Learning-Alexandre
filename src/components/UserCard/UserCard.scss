@@ -61,3 +61,43 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .UserCard{
+        width: 400px;
+        height: 500px;
+
+        .UserCardHeader{
+            flex-direction: row;
+            align-items: center;
+
+            img{
+                width: 60%;
+                height: 60%;
+            }
+        }
+
+        .timeSelector{
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .UserCard{
+        width: 600px;
+        min-height: 300px;
+
+        .UserCardHeader{
+            flex-direction: row;
+        }
+
+        .timeSelector{
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}

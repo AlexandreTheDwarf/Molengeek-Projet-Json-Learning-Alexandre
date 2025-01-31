@@ -15,3 +15,25 @@
   grid-gap : 3%;
   justify-content: center;
 }
+
+@media (max-width: 425px) {
+    .CardContainer{
+      flex-direction: column;
+      width: 100vw;
+    }
+    .ContainerTimeCard{
+      margin-top: 5%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .CardContainer{
+      width: 100vw;
+      flex-direction: column;
+    }
+    .ContainerTimeCard{
+      margin-top: 5%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
